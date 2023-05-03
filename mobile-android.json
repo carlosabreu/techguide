@@ -1,0 +1,1659 @@
+{
+    "name": "Android",
+    "expertises": [
+        {
+            "name": "Nivel 1 - Básico",
+            "cards": [
+                {
+                    "name": "Kotlin - Fundamentos",
+                    "key-objectives": [
+                        "A linguagem Kotlin cada vez mais cresce no mercado, seja pela adoção no ambiente Android, como também, na presença em outras plataformas. Muitas pessoas e empresas cada vez mais estão interessadas em desenvolver produtos em Kotlin, ou seja, é muito importante conhecer os fundamentos e técnicas específicas que a linguagem provê",
+                        "Entender a sua sintaxe",
+                        "Conhecer os tipos primitivos",
+                        "Declarar e usar variáveis e constantes",
+                        "Usar estruturas condicionais (if, else)",
+                        "Usar estruturas de repetição e laços (while, for)",
+                        "Usar funções, passando parâmetros e argumentos",
+                        "Implementando métodos e reutilizando eles",
+                        "Null Safety (Elimine o perigo de referências nulas)",
+                        "Exceptions e Throwables",
+                        "Convenções de código",
+                        "Manipular Coleções, arrays e listas",
+                        "Recursos do Paradigma funcional",
+                        "Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Começando com Kotlin (inglês)",
+                            "link": "https://kotlinlang.org/docs/getting-started.html",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Tipos Básicos e Kotlin (inglês)",
+                            "link": "https://kotlinlang.org/docs/basic-types.html",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Sintaxe básica do Kotlin(inglês)",
+                            "link": "https://kotlinlang.org/docs/basic-syntax.html",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Convenções de código do Kotlin(inglês)",
+                            "link": "https://kotlinlang.org/docs/coding-conventions.html",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Kotlin - Variáveis e Nullable",
+                            "link": "https://medium.com/luizalabs/kotlin-vari%C3%A1veis-e-nullable-8dd977bc376d",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Kotlin // Dicionário do Programador",
+                            "link": "https://youtu.be/BfjRYBN7Ur8",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Curso de Kotlin (inglês)",
+                            "link": "https://youtu.be/F9UC9DY-vIU",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Desenvolvimento de apps mobile com Kotlin | Hipsters.Talks",
+                            "link": "https://www.youtube.com/watch?v=TKYDpbO5KcI&ab_channel=AluraCursosOnline",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Case Contabilizei: Kotlin - Hipsters Ponto Tech #310",
+                            "link": "https://www.hipsters.tech/case-contabilizei-kotlin-hipsters-ponto-tech-310/",
+                            "type": "PODCAST"
+                        },
+                        {
+                            "title": "Formação Kotlin",
+                            "link": "https://cursos.alura.com.br/formacao-kotlin",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "7 Days of Code: Kotlin",
+                            "link": "https://7daysofcode.io/matricula/kotlin",
+                            "type": "CHALLENGE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Fundamentos",
+                    "key-objectives": [
+                        "Conhecer Kotlin, Java ou C++ que são as linguagens para desenvolver Apps Android.",
+                        "Entender o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android",
+                        "Saber os componentes de entrada de um App - Activity, Service, Broadcast Receiver e Content Provider",
+                        "Compreender os ciclos de vida de componentes do Android e como funcionam - O ciclo de vida de uma Activity",
+                        "Ativar componentes de entrada do App com Intents",
+                        "Conhecer o arquivo de manifesto e os principais itens de configuração",
+                        "Entender quais são os recursos de um projeto Android - código fonte, recursos estáticos, drawables, layout, mipmap, values etc",
+                        "Criar um projeto Android com o Android Studio e rodar em um dispositivo físico ou virtual",
+                        "Conhecer bibliotecas do jetpack para garantir a compatibilidade entre as versões do Android"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Fundamentos de aplicativos",
+                            "link": "https://developer.android.com/guide/components/fundamentals?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Componentes de aplicativo",
+                            "link": "https://developer.android.com/guide/components/fundamentals?hl=pt-br#Components",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Ativação de componentes",
+                            "link": "https://developer.android.com/guide/components/fundamentals?hl=pt-br#ActivatingComponents#Components",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Visão geral do manifesto do aplicativo",
+                            "link": "https://developer.android.com/guide/topics/manifest/manifest-intro?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Visão geral dos recursos do aplicativo",
+                            "link": "https://developer.android.com/guide/topics/resources/providing-resources?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Criar seu primeiro App Android",
+                            "link": "https://developer.android.com/training/basics/firstapp?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Acessar as bibliotecas do Jetpack por tipo",
+                            "link": "https://developer.android.com/jetpack/androidx/explorer",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Criando o primeiro app Android",
+                            "link": "https://www.alura.com.br/artigos/criando-o-primeiro-app-android",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Android com Kotlin criando um app",
+                            "link": "https://cursos.alura.com.br/course/fundamentos-android-kotlin",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Activity Lifecycle: por que você deve conhecer sobre o ciclo de vida da Activity",
+                            "link": "https://www.alura.com.br/artigos/activity-lifecycle-por-que-conhecer-ciclo-de-vida-activity",
+                            "type": "ARTICLE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Conceitos de Orientação a Objetos",
+                    "key-objectives": [
+                        "A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.",
+                        "Como funcionam objetos",
+                        "Criar e utilizar construtores",
+                        "O que são classes",
+                        "Criar e utilizar métodos",
+                        "Como funciona encapsulamento",
+                        "O que é herança",
+                        "O que é polimorfismo",
+                        "Como funcionam interfaces",
+                        "O que são abstrações"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Unicamp: Conceitos de Orientação a Objetos",
+                            "link": "http://ftp.unicamp.br/pub/apoio/treinamentos/linguagens/POO.pdf",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Princípios básicos da Programação Orientação a Objetos (POO)",
+                            "link": "https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "FernandaDev: O que é Programação Orientada a Objetos?(POO)",
+                            "link": "https://www.youtube.com/watch?v=QJjY2TNyl-8",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Object-Oriented Programming with Objective-C(inglês)",
+                            "link": "https://everythingcomputerscience.com/books/OOP_ObjC.pdf",
+                            "type": "ARTICLE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "POO: o que é programação orientada a objetos?",
+                            "link": "https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Apostila: Java e Orientação a Objetos",
+                            "link": "https://www.alura.com.br/apostila-java-orientacao-objetos",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Livro: Orientação a Objetos",
+                            "link": "https://www.casadocodigo.com.br/products/livro-oo-conceitos",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Alura: Orientação a objetos (com Roberta Arcoverde)",
+                            "link": "https://www.youtube.com/watch?v=jpuJ1qrluoU",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Alura: Imersão Java: Orientação a Objetos, APIs e além (e live coding!)",
+                            "link": "https://www.youtube.com/watch?v=WdT90ffB-0Q",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Formação Java e Orientação a Objetos",
+                            "link": "https://cursos.alura.com.br/formacao-java",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Formação C# e Orientação a Objetos",
+                            "link": "https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Formação Python e orientação a objetos",
+                            "link": "https://cursos.alura.com.br/formacao-Python-linguagem",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Curso Orientação a Objetos com PHP: Classes, métodos e atributos",
+                            "link": "https://cursos.alura.com.br/course/php-oo-classes-metodos-atributos",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Curso JavaScript: programação orientada a objetos",
+                            "link": "https://cursos.alura.com.br/course/javascript-passos-programacao-orientada-objetos",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Sistema de View",
+                    "key-objectives": [
+                        "Conhecer a referência View e ViewGroup para definir um Layout",
+                        "Saber as principais ViewGroups para construir layouts - LinearLayout, RelativeLayout, FrameLayout e ConstraintLayout.",
+                        "Usar o editor visual de Layout para personalizar a tela, ou então, utilizar o arquivo XML para a edição.",
+                        "Conhecer o Preview do editor visual e usá-lo para preparar as telas e componentes do App.",
+                        "Utilizar as Views do SDK do Android - TextView, Button, EditText, CheckBox, DatePicker etc",
+                        "Criar Views personalizadas para atender demandas específicas",
+                        "Personalizar as Views com propriedades do Android ou da própria View - Ajustes de altura, largura, visibilidade, espaçamento",
+                        "Implementar Layouts de conteúdos dinâmico com adaptadores - AdapterView e RecyclerView",
+                        "Integrar código de negócio com o layout da tela - Chamar e manipular as Views com o View Binding",
+                        "Reagir a eventos das Views a partir de listeners como cliques, cliques longos, rolagem, arrastar e soltar"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Layouts",
+                            "link": "https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Layouts (ViewGroups) comuns",
+                            "link": "https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Layouts (ViewGroups) comuns",
+                            "link": "https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Criar uma IU com o Layout Editor",
+                            "link": "https://developer.android.com/studio/write/layout-editor?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Criar uma IU responsiva com o ConstraintLayout",
+                            "link": "https://developer.android.com/training/constraint-layout?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Android View: Prólogo",
+                            "link": "https://medium.com/android-dev-br/android-view-pr%C3%B3logo-d44a89c14fd1",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Listas com RecyclerView",
+                            "link": "https://medium.com/android-dev-br/listas-com-recyclerview-d3f41e0d653c",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Visão geral dos eventos de entrada",
+                            "link": "https://developer.android.com/guide/topics/ui/ui-events?hl=pt-br",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "View Binding Android",
+                            "link": "https://www.alura.com.br/artigos/view-binding-android",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Android com Kotlin: criando um app",
+                            "link": "https://cursos.alura.com.br/course/fundamentos-android-kotlin",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Android com Kotlin: personalize o seu App",
+                            "link": "https://cursos.alura.com.br/course/android-kotlin-personalize-app",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "RecyclerView: listas flexíveis e performáticas",
+                            "link": "https://www.alura.com.br/curso-online-recyclerview-listas-flexiveis-e-performaticas",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "RecyclerView: Listeners, animações e boas práticas",
+                            "link": "https://www.alura.com.br/curso-online-recyclerview-listeners-animacoes",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "RecyclerView: criando telas com Constraint Layouts",
+                            "link": "https://www.alura.com.br/curso-online-layout-android-1",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Fragments",
+                    "key-objectives": [
+                        "Um Fragment representa o comportamento ou uma parte da interface do usuário em uma Activity hospedeira. É possível combinar vários fragmentos em uma única Activity para criar uma IU de vários painéis e reutilizar um fragmento em diversas atividades. Você pode imaginar um fragment como uma seção modular de uma Activity, que tem o próprio ciclo de vida, recebe os próprios eventos de entrada e que pode ser adicionada ou removida durante a execução da Activity.",
+                        "O que é um Fragment.",
+                        "Como usar e reutilizar Fragments na mesma Activity.",
+                        "Entender os motivos para utilizar Fragments em projetos Android.",
+                        "Implementar layouts com múltiplos painéis.",
+                        "Migrar projetos Android que utilizam apenas Activities para utilizar fragments.",
+                        "Lidar com transações do gerenciador de fragments."
+                    ],
+                    "contents": [
+                        {
+                            "title": "Fragmentos | Desenvolvedores Android",
+                            "link": "https://developer.android.com/guide/components/fragments?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Ciclo de Vida dos Fragments (inglês)",
+                            "link": "https://developer.android.com/guide/fragments/lifecycle?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Filosofia de projeto com Fragments",
+                            "link": "https://developer.android.com/guide/components/fragments?hl=pt-br#Design",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Aprenda a Usar os Fragments em 4 Passos",
+                            "link": "https://www.androidpro.com.br/blog/desenvolvimento-android/fragments/",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Pedro Henrique de Oliveira e Silva: Android - Utilizando Fragments",
+                            "link": "https://www.youtube.com/watch?v=Lo2qofVfA-I&ab_channel=PedroHenriquedeOliveiraeSilva",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Android Fragments: Reutilizando componentes visuais",
+                            "link": "https://cursos.alura.com.br/course/android-fragments",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Navegação no App",
+                    "key-objectives": [
+                        "A navegação de telas em Apps é fundamental para a experiência de uso de Apps Android. Para isso é essencial conhecer os princípios de navegação do Android",
+                        "Aprender o que é a biblioteca Navigation e como é possível implementá-la, seja para o sistema de Views ou para o Jetpack Compose.",
+                        "Integrar a navegação com componentes do App, seja em navegação de abas, ou na visualização de componentes visuais dependendo da tela.",
+                        "Saber o que é uma task de a back stack do Android",
+                        "Conhecer os App links - Deep Link, Web Links e Android App Links"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Princípios de navegação",
+                            "link": "https://developer.android.com/guide/navigation/navigation-principles?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Navigation",
+                            "link": "https://developer.android.com/guide/navigation?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Como navegar com o Compose",
+                            "link": "https://developer.android.com/jetpack/compose/navigation?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Entenda as tarefas e a pilha de retorno",
+                            "link": "https://developer.android.com/guide/components/activities/tasks-and-back-stack?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Usando Navigation Component — Android Jetpack",
+                            "link": "https://medium.com/android-dev-br/usando-navigation-component-android-jetpack-e1356921b31d",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Introdução ao Compose Navigation",
+                            "link": "https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-compose-navigation-574d1d9572a0",
+                            "type": "ARTICLE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Navigation: transição de telas no Android",
+                            "link": "https://www.alura.com.br/curso-online-android-navigation",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Navigation: novas features e reutilização de código",
+                            "link": "https://www.alura.com.br/curso-online-android-navigation-features",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Jetpack Compose: navegando entre telas com o Navigation",
+                            "link": "https://www.alura.com.br/curso-online-jetpack-compose-navegando-telas-navigation",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Jetpack Compose Fundamentos",
+                    "key-objectives": [
+                        "O Jetpack Compose é uma ferramenta que trás a proposta de criar interfaces nativas Android com menos código, mais rápido e deixa seus apps mais bonitos, ele faz isso através da abordagem declarativa.",
+                        "Criar um app Android do zero utilizando o Jetpack Compose.",
+                        "Construção de Layouts apartir de composables.",
+                        "Pré-visualizações de Composables.",
+                        "Gerenciamento de estados, eventos, composição e recomposição.",
+                        "Configurar o compose em um projeto já existente e aplicar a interoperabilidade.",
+                        "Trabalhar com formulários.",
+                        "Entender a diferença do XML para o Compose",
+                        "Manter estados utilizando o padrão MVVM com ViewModel e StateFlow, entendendo o ciclo de vida."
+                    ],
+                    "contents": [
+                        {
+                            "title": "Tutorial do Android Compose | Desenvolvimento Android | Documentação Oficial",
+                            "link": "https://developer.android.com/jetpack/compose/tutorial",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Novas pessoas desenvolvedoras android deveriam aprender Compose ou XML? (ingês)",
+                            "link": "https://dev.to/aldok/should-new-android-developer-learn-compose-or-xml-3oah",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Utilizando o JETPACK COMPOSE para criar UIs modernas para Apps Android",
+                            "link": "https://www.youtube.com/watch?v=6qIjSVVzlt0&ab_channel=InstitutodeInform%C3%A1ticaUFG",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Estado e Jetpack Compose",
+                            "link": "https://developer.android.com/jetpack/compose/state?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Ciclo de vida dos composables",
+                            "link": "https://developer.android.com/jetpack/compose/lifecycle?hl=pt-br#:~:text=Quando%20o%20Jetpack%20Compose%20executa,Jetpack%20Compose%20programar%C3%A1%20uma%20recomposi%C3%A7%C3%A3o.",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "O que é Jetpack Compose? com Alex Felipe | #HipstersPontoTube",
+                            "link": "https://youtu.be/LR5LUhTZPCE",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Jetpack Compose: Começando com Compose | #AluraMais",
+                            "link": "https://youtu.be/L4nWoZTKjKw",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Vale a pena aprender Jetpack Compose agora?",
+                            "link": "https://www.alura.com.br/artigos/vale-a-pena-aprender-jetpack-compose",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Formação: Jetpack Compose - Criando telas e gerenciando estados",
+                            "link": "https://cursos.alura.com.br/formacao-jetpack-compose-criando-telas-gerenciando-estados",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Persistência de dados",
+                    "key-objectives": [
+                        "Armazenar dados do usuário é fundamental para garantir que o progresso seja mantido. Seja salvar informações simples texto, números, ou então, arquivos ou dados estruturados (informações organizadas em tabelas).",
+                        "No Android podemos armazenar de maneira persistente arquivos específicos ou para o App ou compartilhado, informações de tipo primitivo com preferências e dados estruturados com banco de dados."
+                    ],
+                    "contents": [
+                        {
+                            "title": "Visão geral do armazenamento de dados e arquivos",
+                            "link": "https://developer.android.com/training/data-storage?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Acessar arquivos específicos do app",
+                            "link": "https://developer.android.com/training/data-storage/app-specific?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Visão geral do armazenamento compartilhado",
+                            "link": "https://developer.android.com/training/data-storage/shared?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Salvar dados de chave-valor",
+                            "link": "https://developer.android.com/training/data-storage/shared-preferences?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Salvar dados em um banco de dados local usando o Room",
+                            "link": "https://developer.android.com/training/data-storage/room?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "LIVE #010 - Room Database: Introdução a Persistência de Dados com Kotlin localmente - PARTE 1",
+                            "link": "https://www.youtube.com/watch?v=JQ_isBkRWzc",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Android com Kotlin: persistência de dados com o Room",
+                            "link": "https://www.alura.com.br/curso-online-android-kotlin-persistencia-dados-room",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Android com Kotlin: Migrations e relacionamento com o Room",
+                            "link": "https://www.alura.com.br/curso-online-android-kotlin-migrations-relacionamento-room",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Jetpack Compose: armazenamento de dados internos",
+                            "link": "https://www.alura.com.br/curso-online-jetpack-compose-armazenamento-dados-internos",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Salvando informações com o Shared Preferences",
+                            "link": "https://www.alura.com.br/artigos/salvando-informacoes-com-o-shared-preferences",
+                            "type": "ARTICLE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Gradle",
+                    "key-objectives": [
+                        "O Gradle e o plug-in do Android para Gradle(AGP) oferecem uma maneira flexível de compilar, criar, gerenciar e empacotar seu app ou biblioteca Android.",
+                        "O que é uma build tool",
+                        "Estrutura de um projeto Android como um projeto multi módulo do Gradle",
+                        "Para que serve o gradle",
+                        "Como usar o gradle",
+                        "O que são dependências e como utilizá-las"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Configure seu Build",
+                            "link": "https://developer.android.com/studio/build?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Dicas e receitas para o Gradle",
+                            "link": "https://developer.android.com/studio/build/gradle-tips?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Gradle Android para Iniciantes",
+                            "link": "https://www.linkedin.com/pulse/gradle-android-para-iniciantes-roger-silva/?originalSubdomain=pt",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Gradle para Android - Entendendo o processo de build | AndroidPro",
+                            "link": "https://www.androidpro.com.br/blog/android-studio/gradle/",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Adicionando dependências do build - Gradle",
+                            "link": "https://developer.android.com/studio/build/dependencies?hl=pt-br#:~:text=Para%20adicionar%20uma%20depend%C3%AAncia%20ao,gradle%20do%20m%C3%B3dulo.&text=Isso%20declara%20uma%20depend%C3%AAncia%20em,do%20Android%20chamado%20%22mylibrary%22.",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Guia para Modularização de app",
+                            "link": "https://developer.android.com/topic/modularization",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Conhecendo as build tools no mundo Java",
+                            "link": "https://www.youtube.com/watch?v=6llRWbdnmuk",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Começando com o Gradle: Tasks e comandos básicos",
+                            "link": "https://www.youtube.com/watch?v=uX6Ezf73OEY",
+                            "type": "YOUTUBE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Carregamento de Imagem",
+                    "key-objectives": [
+                        "As imagens vem em tamanhos e formas diferentes. Na maioria dos casos, elas são maiores do que o necessário para a Interface de usuário (UI) de um app. Dado que estamos trabalhando com memória limitada, no Android é usada uma técnica de decodificação de bitmaps, para evitar todo o trabalho de utilizar isso, temos diversas bibliotecas que facilitam esse processo.",
+                        "O que é Bitmap",
+                        "Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre oturas)",
+                        "Usar essas bibliotecas",
+                        "Vantagens e desvantagens de cada uma"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Bitmap: o que é, para que serve e como funciona",
+                            "link": "https://www.tecnoveste.com.br/bitmap-o-que-e-para-que-serve-e-como-funciona/",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Paulo Salvatore: Carregando imagens no Android com Kotlin | Glide",
+                            "link": "https://www.youtube.com/watch?v=5FJLyFbTsZQ&ab_channel=PauloSalvatore",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Stevdza-San: Coil - Biblioteca moderna de carregamento de imagem | Android Studio Tutorial (inglês)",
+                            "link": "https://www.youtube.com/watch?v=IBaUjzn2Rgo&ab_channel=Stevdza-San",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "cedr!c: Como carregar uma imagem remota em Android - PICASSO & GLIDE",
+                            "link": "https://www.youtube.com/watch?v=BM6SnH3CDE0",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Coil - Site oficial (inglês)",
+                            "link": "https://coil-kt.github.io/coil/",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Glide v4 - Site oficial (inglês)",
+                            "link": "https://bumptech.github.io/glide/",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Picasso - Site oficial (inglês)",
+                            "link": "https://square.github.io/picasso/",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Android com Kotlin: Personalize o seu app",
+                            "link": "https://cursos.alura.com.br/course/android-kotlin-personalize-app",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Jetpack Compose: Criando um app android",
+                            "link": "https://cursos.alura.com.br/course/jetpack-compose-app-android",
+                            "type": "COURSE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nivel 2 - Intermediário",
+            "cards": [
+                {
+                    "name": "Android - Permissões",
+                    "key-objectives": [
+                        "As permissões do app ajudam a apoiar a privacidade do usuário protegendo dados restritos, como estados do sistema e os dados de contatos dos usuários, há também as ações restritas, como a conexão a um dispositivo pareado e a gravação de áudio ou uso de câmera.",
+                        "O que são permissões",
+                        "Quais tipos de permissões existem",
+                        "Permissões especiais",
+                        "Práticas recomendadas"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Permissões no Android",
+                            "link": "https://developer.android.com/guide/topics/permissions/overview?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Uso de permissões - Android Manifest",
+                            "link": "https://developer.android.com/guide/topics/manifest/uses-permission-element?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Solicitando permissões do app",
+                            "link": "https://developer.android.com/training/permissions/requesting?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Entendendo as permissões do app (inglês)",
+                            "link": "https://guides.codepath.com/android/Understanding-App-Permissions",
+                            "type": "ARTICLE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Execução assíncrona",
+                    "key-objectives": [
+                        "Existem códigos em Apps que podem demorar, em situações como essa, corremos o risco do App travar por não conseguir rodar as demais instruções até que a instrução que demora ainda não foi finalizada. Para lidar com situações como essa, utilizamos técnicas para rodar o nosso código de maneira assíncrona.",
+                        "Aprender as possibilidades para rodar o código de maneira assíncrona no Android",
+                        "Conhecer o pacote java.concurrent e as suas soluções",
+                        "Utilizar Coroutines como uma solução de código assíncrono no Kotlin",
+                        "Entender e usar estruturas reativas como LiveData, Flow, StateFlow, RX etc"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Corrotinas do Kotlin no Android",
+                            "link": "https://developer.android.com/kotlin/coroutines?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Fluxos em Kotlin no Android",
+                            "link": "https://developer.android.com/kotlin/flow?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "StateFlow e SharedFlow",
+                            "link": "https://developer.android.com/kotlin/flow/stateflow-and-sharedflow?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Visão geral do LiveData",
+                            "link": "https://developer.android.com/topic/libraries/architecture/livedata?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Introdução ao RX Java com Kotlin",
+                            "link": "https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-rx-java-com-kotlin-90c58d184c6b",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Kotlin Coroutines: Criando um Projeto Android do Zero Com a Arquitetura MVVM e LiveData",
+                            "link": "https://www.youtube.com/watch?v=M9nmW9BSKUA",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Operações Assíncronas com Coroutines no Kotlin",
+                            "link": "https://www.alura.com.br/videos/operacoes-assincronas-com-coroutines-do-kotlin-no-android-c58",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Retrofit com Coroutines e LiveData no Android",
+                            "link": "https://www.alura.com.br/artigos/retrofit-com-coroutines-e-livedata-no-android",
+                            "type": "ARTICLE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kotlin - APIs",
+                    "key-objectives": [
+                        "Realizar requisições HTTP para se comunicar com serviços online, como REST API é fundamental na maioria dos Apps Android. Sendo assim, é importante conhecer as principais ferramentas e técnicas necessárias para esse tipo de funcionalidade.",
+                        "Conhecer bibliotecas famosas no mundo Android para realizar requisições - Retrofit, Ktor ou Volley.",
+                        "Configurar as requisições para executararem de maneira assíncrona.",
+                        "Converter objetos para JSON e vice-versa."
+                    ],
+                    "contents": [
+                        {
+                            "title": "Conectar-se à rede",
+                            "link": "https://developer.android.com/training/basics/network-ops/connecting?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Comunicação HTTP eficiente no Android com Volley",
+                            "link": "https://nglauber.medium.com/comunica%C3%A7%C3%A3o-http-eficiente-no-android-com-volley-9772b4057a5c",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Consumindo API REST no Android com Retrofit em Kotlin",
+                            "link": "https://medium.com/collabcode/consumindo-api-rest-no-android-com-retrofit-em-kotlin-parte-1-5e752ab8a877",
+                            "type": "ARTICLE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Android com Kotlin: comunicação com Web API",
+                            "link": "https://www.alura.com.br/curso-online-android-kotlin-comunicacao-web-api",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Retrofit com Coroutines e LiveData no Android",
+                            "link": "https://www.alura.com.br/artigos/retrofit-com-coroutines-e-livedata-no-android",
+                            "type": "ARTICLE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Recursos do sistema",
+                    "key-objectives": [
+                        "Os smartphones que estão sob a plataforma Android, na sua grande maioria possuem diversos recursos específicos do sistema, tais como câmeras, sensores, gps, entre outros.",
+                        "Aprenda quais são e como utilizar esses recursos."
+                    ],
+                    "contents": [
+                        {
+                            "title": "Visão geral do CameraX - Biblioteca para utilizar a camêra no android",
+                            "link": "https://developer.android.com/training/camerax?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Sensores - Movimento, Posição e Ambiente",
+                            "link": "https://developer.android.com/guide/topics/sensors?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Visão Geral da Conectividade (bluetooth, wi-fi, operações de rede)",
+                            "link": "https://developer.android.com/guide/topics/connectivity?hl=pt-br",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Utilizando o Google Maps em Apps Android",
+                            "link": "https://www.youtube.com/watch?v=rpqi7Y1NQZY",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Tirando foto no app com a câmera do Android",
+                            "link": "https://www.youtube.com/watch?v=jLcrcTMoB88",
+                            "type": "YOUTUBE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Injeção de dependências",
+                    "key-objectives": [
+                        "Ao escrever códigos em projetos Android é muito que uma funcionalidade utilize códigos de bibliotecas, como o Room para salvar dados ou o Retrofit para fazer requisições para REST API. Essas bibliteocas são conhecidas como dependências dos nossos códigos, justamente pela necessidade para realizar a ação esperada. Usar essas bibliteocas com facilidade em qualquer parte do App pode ter os seus desafios, como oferecer instâncias únicas e realizar toda a configuração necessária para o funcionamento correto. Para isso, utilizamos ferramentas de injeção de dependência que facilitam o nosso trabalho.",
+                        "Saber usar a técnica de injeção de dependência e uma das ferramentas comuns no Android - Hilt, Dagger ou Koin"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Injeção de dependência no Android",
+                            "link": "https://developer.android.com/training/dependency-injection?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Injeção de dependência no Kotlin com Koin",
+                            "link": "https://medium.com/collabcode/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-no-kotlin-com-koin-4d093f80cb63",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Chico Rasia: Viewmodel com injeção de dependência via Factory no Android com Kotlin",
+                            "link": "https://youtu.be/biFrt-Bjx-g",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Injeção de dependência no Android com o Hilt",
+                            "link": "https://www.alura.com.br/artigos/injecao-de-dependencia-do-android-com-o-hilt",
+                            "type": "ARTICLE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Testes automatizados",
+                    "key-objectives": [
+                        "Ao escrever um App Android, precisamos garantir ao máximo que o App funciona como esperado. Para evitar os bugs, utilizamos testes automatizados que se responsabilizam em realizar as ações esperadas e conferir se o App apresenta os comportamentos esperados.",
+                        "Conhecer os fundamentos de testes para Android é essencial para garantir o funcionamento do App",
+                        "Implementar cada tipo de teste para garantir o comportamento esperado - unidade, integração e instrumental.",
+                        "Utilizar Mocks para facilitar a implementação de testes com dependências",
+                        "Implementação de testes com ferramentas de Injeção de dependência - Hilt"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Conceitos básicos de testes",
+                            "link": "https://developer.android.com/training/testing/fundamentals?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "O que testar no Android (Inglês)",
+                            "link": "https://developer.android.com/training/testing/fundamentals/what-to-test",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Como testar o layout do Compose",
+                            "link": "https://developer.android.com/jetpack/compose/testing?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Criar testes de unidade locais",
+                            "link": "https://developer.android.com/training/testing/unit-testing/local-unit-tests?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Testes Instrumentados: tipos de teste e como são executados.",
+                            "link": "https://medium.com/android-dev-br/testes-instrumentados-tipos-de-teste-e-como-s%C3%A3o-executados-1f13a8cfe4c4",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Dev Vai Longe: 02 Testes unitários no Android com mockito, jUnit e kotlin.",
+                            "link": "https://youtu.be/iKaPscjFa-4",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Android com Kotlin: testes de unidade e Mocks",
+                            "link": "https://www.alura.com.br/curso-online-android-kotlin-testes-unidade-mocks",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Android com Kotlin: testes instrumentados",
+                            "link": "https://www.alura.com.br/curso-online-android-kotlin-testes-instrumentados",
+                            "type": "COURSE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nivel 3 - Avançado",
+            "cards": [
+                {
+                    "name": "Kotlin - Fundamentos",
+                    "key-objectives": [
+                        "A linguagem Kotlin cada vez mais cresce no mercado, seja pela adoção no ambiente Android, como também, na presença em outras plataformas. Muitas pessoas e empresas cada vez mais estão interessadas em desenvolver produtos em Kotlin, ou seja, é muito importante conhecer os fundamentos e técnicas específicas que a linguagem provê",
+                        "Entender a sua sintaxe",
+                        "Conhecer os tipos primitivos",
+                        "Declarar e usar variáveis e constantes",
+                        "Usar estruturas condicionais (if, else)",
+                        "Usar estruturas de repetição e laços (while, for)",
+                        "Usar funções, passando parâmetros e argumentos",
+                        "Implementando métodos e reutilizando eles",
+                        "Null Safety (Elimine o perigo de referências nulas)",
+                        "Exceptions e Throwables",
+                        "Convenções de código",
+                        "Manipular Coleções, arrays e listas",
+                        "Recursos do Paradigma funcional",
+                        "Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Começando com Kotlin (inglês)",
+                            "link": "https://kotlinlang.org/docs/getting-started.html",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Tipos Básicos e Kotlin (inglês)",
+                            "link": "https://kotlinlang.org/docs/basic-types.html",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Sintaxe básica do Kotlin(inglês)",
+                            "link": "https://kotlinlang.org/docs/basic-syntax.html",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Convenções de código do Kotlin(inglês)",
+                            "link": "https://kotlinlang.org/docs/coding-conventions.html",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Kotlin - Variáveis e Nullable",
+                            "link": "https://medium.com/luizalabs/kotlin-vari%C3%A1veis-e-nullable-8dd977bc376d",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Kotlin // Dicionário do Programador",
+                            "link": "https://youtu.be/BfjRYBN7Ur8",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Curso de Kotlin (inglês)",
+                            "link": "https://youtu.be/F9UC9DY-vIU",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Desenvolvimento de apps mobile com Kotlin | Hipsters.Talks",
+                            "link": "https://www.youtube.com/watch?v=TKYDpbO5KcI&ab_channel=AluraCursosOnline",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Case Contabilizei: Kotlin - Hipsters Ponto Tech #310",
+                            "link": "https://www.hipsters.tech/case-contabilizei-kotlin-hipsters-ponto-tech-310/",
+                            "type": "PODCAST"
+                        },
+                        {
+                            "title": "Formação Kotlin",
+                            "link": "https://cursos.alura.com.br/formacao-kotlin",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "7 Days of Code: Kotlin",
+                            "link": "https://7daysofcode.io/matricula/kotlin",
+                            "type": "CHALLENGE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Fundamentos",
+                    "key-objectives": [
+                        "Conhecer Kotlin, Java ou C++ que são as linguagens para desenvolver Apps Android.",
+                        "Entender o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android",
+                        "Saber os componentes de entrada de um App - Activity, Service, Broadcast Receiver e Content Provider",
+                        "Compreender os ciclos de vida de componentes do Android e como funcionam - O ciclo de vida de uma Activity",
+                        "Ativar componentes de entrada do App com Intents",
+                        "Conhecer o arquivo de manifesto e os principais itens de configuração",
+                        "Entender quais são os recursos de um projeto Android - código fonte, recursos estáticos, drawables, layout, mipmap, values etc",
+                        "Criar um projeto Android com o Android Studio e rodar em um dispositivo físico ou virtual",
+                        "Conhecer bibliotecas do jetpack para garantir a compatibilidade entre as versões do Android"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Fundamentos de aplicativos",
+                            "link": "https://developer.android.com/guide/components/fundamentals?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Componentes de aplicativo",
+                            "link": "https://developer.android.com/guide/components/fundamentals?hl=pt-br#Components",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Ativação de componentes",
+                            "link": "https://developer.android.com/guide/components/fundamentals?hl=pt-br#ActivatingComponents#Components",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Visão geral do manifesto do aplicativo",
+                            "link": "https://developer.android.com/guide/topics/manifest/manifest-intro?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Visão geral dos recursos do aplicativo",
+                            "link": "https://developer.android.com/guide/topics/resources/providing-resources?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Criar seu primeiro App Android",
+                            "link": "https://developer.android.com/training/basics/firstapp?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Acessar as bibliotecas do Jetpack por tipo",
+                            "link": "https://developer.android.com/jetpack/androidx/explorer",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Criando o primeiro app Android",
+                            "link": "https://www.alura.com.br/artigos/criando-o-primeiro-app-android",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Android com Kotlin criando um app",
+                            "link": "https://cursos.alura.com.br/course/fundamentos-android-kotlin",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Activity Lifecycle: por que você deve conhecer sobre o ciclo de vida da Activity",
+                            "link": "https://www.alura.com.br/artigos/activity-lifecycle-por-que-conhecer-ciclo-de-vida-activity",
+                            "type": "ARTICLE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Conceitos de Orientação a Objetos",
+                    "key-objectives": [
+                        "A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.",
+                        "Como funcionam objetos",
+                        "Criar e utilizar construtores",
+                        "O que são classes",
+                        "Criar e utilizar métodos",
+                        "Como funciona encapsulamento",
+                        "O que é herança",
+                        "O que é polimorfismo",
+                        "Como funcionam interfaces",
+                        "O que são abstrações"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Unicamp: Conceitos de Orientação a Objetos",
+                            "link": "http://ftp.unicamp.br/pub/apoio/treinamentos/linguagens/POO.pdf",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Princípios básicos da Programação Orientação a Objetos (POO)",
+                            "link": "https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "FernandaDev: O que é Programação Orientada a Objetos?(POO)",
+                            "link": "https://www.youtube.com/watch?v=QJjY2TNyl-8",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Object-Oriented Programming with Objective-C(inglês)",
+                            "link": "https://everythingcomputerscience.com/books/OOP_ObjC.pdf",
+                            "type": "ARTICLE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "POO: o que é programação orientada a objetos?",
+                            "link": "https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Apostila: Java e Orientação a Objetos",
+                            "link": "https://www.alura.com.br/apostila-java-orientacao-objetos",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Livro: Orientação a Objetos",
+                            "link": "https://www.casadocodigo.com.br/products/livro-oo-conceitos",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Alura: Orientação a objetos (com Roberta Arcoverde)",
+                            "link": "https://www.youtube.com/watch?v=jpuJ1qrluoU",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Alura: Imersão Java: Orientação a Objetos, APIs e além (e live coding!)",
+                            "link": "https://www.youtube.com/watch?v=WdT90ffB-0Q",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Formação Java e Orientação a Objetos",
+                            "link": "https://cursos.alura.com.br/formacao-java",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Formação C# e Orientação a Objetos",
+                            "link": "https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Formação Python e orientação a objetos",
+                            "link": "https://cursos.alura.com.br/formacao-Python-linguagem",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Curso Orientação a Objetos com PHP: Classes, métodos e atributos",
+                            "link": "https://cursos.alura.com.br/course/php-oo-classes-metodos-atributos",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Curso JavaScript: programação orientada a objetos",
+                            "link": "https://cursos.alura.com.br/course/javascript-passos-programacao-orientada-objetos",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Sistema de View",
+                    "key-objectives": [
+                        "Conhecer a referência View e ViewGroup para definir um Layout",
+                        "Saber as principais ViewGroups para construir layouts - LinearLayout, RelativeLayout, FrameLayout e ConstraintLayout.",
+                        "Usar o editor visual de Layout para personalizar a tela, ou então, utilizar o arquivo XML para a edição.",
+                        "Conhecer o Preview do editor visual e usá-lo para preparar as telas e componentes do App.",
+                        "Utilizar as Views do SDK do Android - TextView, Button, EditText, CheckBox, DatePicker etc",
+                        "Criar Views personalizadas para atender demandas específicas",
+                        "Personalizar as Views com propriedades do Android ou da própria View - Ajustes de altura, largura, visibilidade, espaçamento",
+                        "Implementar Layouts de conteúdos dinâmico com adaptadores - AdapterView e RecyclerView",
+                        "Integrar código de negócio com o layout da tela - Chamar e manipular as Views com o View Binding",
+                        "Reagir a eventos das Views a partir de listeners como cliques, cliques longos, rolagem, arrastar e soltar"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Layouts",
+                            "link": "https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Layouts (ViewGroups) comuns",
+                            "link": "https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Layouts (ViewGroups) comuns",
+                            "link": "https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Criar uma IU com o Layout Editor",
+                            "link": "https://developer.android.com/studio/write/layout-editor?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Criar uma IU responsiva com o ConstraintLayout",
+                            "link": "https://developer.android.com/training/constraint-layout?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Android View: Prólogo",
+                            "link": "https://medium.com/android-dev-br/android-view-pr%C3%B3logo-d44a89c14fd1",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Listas com RecyclerView",
+                            "link": "https://medium.com/android-dev-br/listas-com-recyclerview-d3f41e0d653c",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Visão geral dos eventos de entrada",
+                            "link": "https://developer.android.com/guide/topics/ui/ui-events?hl=pt-br",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "View Binding Android",
+                            "link": "https://www.alura.com.br/artigos/view-binding-android",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Android com Kotlin: criando um app",
+                            "link": "https://cursos.alura.com.br/course/fundamentos-android-kotlin",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Android com Kotlin: personalize o seu App",
+                            "link": "https://cursos.alura.com.br/course/android-kotlin-personalize-app",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "RecyclerView: listas flexíveis e performáticas",
+                            "link": "https://www.alura.com.br/curso-online-recyclerview-listas-flexiveis-e-performaticas",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "RecyclerView: Listeners, animações e boas práticas",
+                            "link": "https://www.alura.com.br/curso-online-recyclerview-listeners-animacoes",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "RecyclerView: criando telas com Constraint Layouts",
+                            "link": "https://www.alura.com.br/curso-online-layout-android-1",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Fragments",
+                    "key-objectives": [
+                        "Um Fragment representa o comportamento ou uma parte da interface do usuário em uma Activity hospedeira. É possível combinar vários fragmentos em uma única Activity para criar uma IU de vários painéis e reutilizar um fragmento em diversas atividades. Você pode imaginar um fragment como uma seção modular de uma Activity, que tem o próprio ciclo de vida, recebe os próprios eventos de entrada e que pode ser adicionada ou removida durante a execução da Activity.",
+                        "O que é um Fragment.",
+                        "Como usar e reutilizar Fragments na mesma Activity.",
+                        "Entender os motivos para utilizar Fragments em projetos Android.",
+                        "Implementar layouts com múltiplos painéis.",
+                        "Migrar projetos Android que utilizam apenas Activities para utilizar fragments.",
+                        "Lidar com transações do gerenciador de fragments."
+                    ],
+                    "contents": [
+                        {
+                            "title": "Fragmentos | Desenvolvedores Android",
+                            "link": "https://developer.android.com/guide/components/fragments?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Ciclo de Vida dos Fragments (inglês)",
+                            "link": "https://developer.android.com/guide/fragments/lifecycle?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Filosofia de projeto com Fragments",
+                            "link": "https://developer.android.com/guide/components/fragments?hl=pt-br#Design",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Aprenda a Usar os Fragments em 4 Passos",
+                            "link": "https://www.androidpro.com.br/blog/desenvolvimento-android/fragments/",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Pedro Henrique de Oliveira e Silva: Android - Utilizando Fragments",
+                            "link": "https://www.youtube.com/watch?v=Lo2qofVfA-I&ab_channel=PedroHenriquedeOliveiraeSilva",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Android Fragments: Reutilizando componentes visuais",
+                            "link": "https://cursos.alura.com.br/course/android-fragments",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Navegação no App",
+                    "key-objectives": [
+                        "A navegação de telas em Apps é fundamental para a experiência de uso de Apps Android. Para isso é essencial conhecer os princípios de navegação do Android",
+                        "Aprender o que é a biblioteca Navigation e como é possível implementá-la, seja para o sistema de Views ou para o Jetpack Compose.",
+                        "Integrar a navegação com componentes do App, seja em navegação de abas, ou na visualização de componentes visuais dependendo da tela.",
+                        "Saber o que é uma task de a back stack do Android",
+                        "Conhecer os App links - Deep Link, Web Links e Android App Links"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Princípios de navegação",
+                            "link": "https://developer.android.com/guide/navigation/navigation-principles?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Navigation",
+                            "link": "https://developer.android.com/guide/navigation?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Como navegar com o Compose",
+                            "link": "https://developer.android.com/jetpack/compose/navigation?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Entenda as tarefas e a pilha de retorno",
+                            "link": "https://developer.android.com/guide/components/activities/tasks-and-back-stack?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Usando Navigation Component — Android Jetpack",
+                            "link": "https://medium.com/android-dev-br/usando-navigation-component-android-jetpack-e1356921b31d",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Introdução ao Compose Navigation",
+                            "link": "https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-compose-navigation-574d1d9572a0",
+                            "type": "ARTICLE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Navigation: transição de telas no Android",
+                            "link": "https://www.alura.com.br/curso-online-android-navigation",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Navigation: novas features e reutilização de código",
+                            "link": "https://www.alura.com.br/curso-online-android-navigation-features",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Jetpack Compose: navegando entre telas com o Navigation",
+                            "link": "https://www.alura.com.br/curso-online-jetpack-compose-navegando-telas-navigation",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Jetpack Compose Fundamentos",
+                    "key-objectives": [
+                        "O Jetpack Compose é uma ferramenta que trás a proposta de criar interfaces nativas Android com menos código, mais rápido e deixa seus apps mais bonitos, ele faz isso através da abordagem declarativa.",
+                        "Criar um app Android do zero utilizando o Jetpack Compose.",
+                        "Construção de Layouts apartir de composables.",
+                        "Pré-visualizações de Composables.",
+                        "Gerenciamento de estados, eventos, composição e recomposição.",
+                        "Configurar o compose em um projeto já existente e aplicar a interoperabilidade.",
+                        "Trabalhar com formulários.",
+                        "Entender a diferença do XML para o Compose",
+                        "Manter estados utilizando o padrão MVVM com ViewModel e StateFlow, entendendo o ciclo de vida."
+                    ],
+                    "contents": [
+                        {
+                            "title": "Tutorial do Android Compose | Desenvolvimento Android | Documentação Oficial",
+                            "link": "https://developer.android.com/jetpack/compose/tutorial",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Novas pessoas desenvolvedoras android deveriam aprender Compose ou XML? (ingês)",
+                            "link": "https://dev.to/aldok/should-new-android-developer-learn-compose-or-xml-3oah",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Utilizando o JETPACK COMPOSE para criar UIs modernas para Apps Android",
+                            "link": "https://www.youtube.com/watch?v=6qIjSVVzlt0&ab_channel=InstitutodeInform%C3%A1ticaUFG",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Estado e Jetpack Compose",
+                            "link": "https://developer.android.com/jetpack/compose/state?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Ciclo de vida dos composables",
+                            "link": "https://developer.android.com/jetpack/compose/lifecycle?hl=pt-br#:~:text=Quando%20o%20Jetpack%20Compose%20executa,Jetpack%20Compose%20programar%C3%A1%20uma%20recomposi%C3%A7%C3%A3o.",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "O que é Jetpack Compose? com Alex Felipe | #HipstersPontoTube",
+                            "link": "https://youtu.be/LR5LUhTZPCE",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Jetpack Compose: Começando com Compose | #AluraMais",
+                            "link": "https://youtu.be/L4nWoZTKjKw",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Vale a pena aprender Jetpack Compose agora?",
+                            "link": "https://www.alura.com.br/artigos/vale-a-pena-aprender-jetpack-compose",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Formação: Jetpack Compose - Criando telas e gerenciando estados",
+                            "link": "https://cursos.alura.com.br/formacao-jetpack-compose-criando-telas-gerenciando-estados",
+                            "type": "COURSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Persistência de dados",
+                    "key-objectives": [
+                        "Armazenar dados do usuário é fundamental para garantir que o progresso seja mantido. Seja salvar informações simples texto, números, ou então, arquivos ou dados estruturados (informações organizadas em tabelas).",
+                        "No Android podemos armazenar de maneira persistente arquivos específicos ou para o App ou compartilhado, informações de tipo primitivo com preferências e dados estruturados com banco de dados."
+                    ],
+                    "contents": [
+                        {
+                            "title": "Visão geral do armazenamento de dados e arquivos",
+                            "link": "https://developer.android.com/training/data-storage?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Acessar arquivos específicos do app",
+                            "link": "https://developer.android.com/training/data-storage/app-specific?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Visão geral do armazenamento compartilhado",
+                            "link": "https://developer.android.com/training/data-storage/shared?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Salvar dados de chave-valor",
+                            "link": "https://developer.android.com/training/data-storage/shared-preferences?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Salvar dados em um banco de dados local usando o Room",
+                            "link": "https://developer.android.com/training/data-storage/room?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "LIVE #010 - Room Database: Introdução a Persistência de Dados com Kotlin localmente - PARTE 1",
+                            "link": "https://www.youtube.com/watch?v=JQ_isBkRWzc",
+                            "type": "YOUTUBE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Android com Kotlin: persistência de dados com o Room",
+                            "link": "https://www.alura.com.br/curso-online-android-kotlin-persistencia-dados-room",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Android com Kotlin: Migrations e relacionamento com o Room",
+                            "link": "https://www.alura.com.br/curso-online-android-kotlin-migrations-relacionamento-room",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Jetpack Compose: armazenamento de dados internos",
+                            "link": "https://www.alura.com.br/curso-online-jetpack-compose-armazenamento-dados-internos",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Salvando informações com o Shared Preferences",
+                            "link": "https://www.alura.com.br/artigos/salvando-informacoes-com-o-shared-preferences",
+                            "type": "ARTICLE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Gradle",
+                    "key-objectives": [
+                        "O Gradle e o plug-in do Android para Gradle(AGP) oferecem uma maneira flexível de compilar, criar, gerenciar e empacotar seu app ou biblioteca Android.",
+                        "O que é uma build tool",
+                        "Estrutura de um projeto Android como um projeto multi módulo do Gradle",
+                        "Para que serve o gradle",
+                        "Como usar o gradle",
+                        "O que são dependências e como utilizá-las"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Configure seu Build",
+                            "link": "https://developer.android.com/studio/build?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Dicas e receitas para o Gradle",
+                            "link": "https://developer.android.com/studio/build/gradle-tips?hl=pt-br",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Gradle Android para Iniciantes",
+                            "link": "https://www.linkedin.com/pulse/gradle-android-para-iniciantes-roger-silva/?originalSubdomain=pt",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Gradle para Android - Entendendo o processo de build | AndroidPro",
+                            "link": "https://www.androidpro.com.br/blog/android-studio/gradle/",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Adicionando dependências do build - Gradle",
+                            "link": "https://developer.android.com/studio/build/dependencies?hl=pt-br#:~:text=Para%20adicionar%20uma%20depend%C3%AAncia%20ao,gradle%20do%20m%C3%B3dulo.&text=Isso%20declara%20uma%20depend%C3%AAncia%20em,do%20Android%20chamado%20%22mylibrary%22.",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Guia para Modularização de app",
+                            "link": "https://developer.android.com/topic/modularization",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Conhecendo as build tools no mundo Java",
+                            "link": "https://www.youtube.com/watch?v=6llRWbdnmuk",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Começando com o Gradle: Tasks e comandos básicos",
+                            "link": "https://www.youtube.com/watch?v=uX6Ezf73OEY",
+                            "type": "YOUTUBE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Android - Carregamento de Imagem",
+                    "key-objectives": [
+                        "As imagens vem em tamanhos e formas diferentes. Na maioria dos casos, elas são maiores do que o necessário para a Interface de usuário (UI) de um app. Dado que estamos trabalhando com memória limitada, no Android é usada uma técnica de decodificação de bitmaps, para evitar todo o trabalho de utilizar isso, temos diversas bibliotecas que facilitam esse processo.",
+                        "O que é Bitmap",
+                        "Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre oturas)",
+                        "Usar essas bibliotecas",
+                        "Vantagens e desvantagens de cada uma"
+                    ],
+                    "contents": [
+                        {
+                            "title": "Bitmap: o que é, para que serve e como funciona",
+                            "link": "https://www.tecnoveste.com.br/bitmap-o-que-e-para-que-serve-e-como-funciona/",
+                            "type": "ARTICLE"
+                        },
+                        {
+                            "title": "Paulo Salvatore: Carregando imagens no Android com Kotlin | Glide",
+                            "link": "https://www.youtube.com/watch?v=5FJLyFbTsZQ&ab_channel=PauloSalvatore",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Stevdza-San: Coil - Biblioteca moderna de carregamento de imagem | Android Studio Tutorial (inglês)",
+                            "link": "https://www.youtube.com/watch?v=IBaUjzn2Rgo&ab_channel=Stevdza-San",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "cedr!c: Como carregar uma imagem remota em Android - PICASSO & GLIDE",
+                            "link": "https://www.youtube.com/watch?v=BM6SnH3CDE0",
+                            "type": "YOUTUBE"
+                        },
+                        {
+                            "title": "Coil - Site oficial (inglês)",
+                            "link": "https://coil-kt.github.io/coil/",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Glide v4 - Site oficial (inglês)",
+                            "link": "https://bumptech.github.io/glide/",
+                            "type": "SITE"
+                        },
+                        {
+                            "title": "Picasso - Site oficial (inglês)",
+                            "link": "https://square.github.io/picasso/",
+                            "type": "SITE"
+                        }
+                    ],
+                    "alura-contents": [
+                        {
+                            "title": "Android com Kotlin: Personalize o seu app",
+                            "link": "https://cursos.alura.com.br/course/android-kotlin-personalize-app",
+                            "type": "COURSE"
+                        },
+                        {
+                            "title": "Jetpack Compose: Criando um app android",
+                            "link": "https://cursos.alura.com.br/course/jetpack-compose-app-android",
+                            "type": "COURSE"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "collaborations": [
+        {
+            "name": "Infraestrutura e boas práticas",
+            "cards": [
+                {
+                    "id": "git-and-github-fundamentals"
+                },
+                {
+                    "id": "http-fundamentals"
+                },
+                {
+                    "id": "json"
+                },
+                {
+                    "id": "design-patterns"
+                },
+                {
+                    "id": "command-line-fundamentals"
+                },
+                {
+                    "id": "cloud-fundamentals"
+                },
+                {
+                    "id": "solid"
+                },
+                {
+                    "id": "clean-architecture"
+                },
+                {
+                    "id": "firebase"
+                }
+            ]
+        },
+        {
+            "name": "UX & Design",
+            "cards": [
+                {
+                    "id": "android-material-design-guidelines"
+                },
+                {
+                    "id": "design-systems"
+                },
+                {
+                    "id": "color-systems"
+                },
+                {
+                    "id": "how-to-use-fonts"
+                },
+                {
+                    "id": "responsive-design"
+                },
+                {
+                    "id": "android-accessibility"
+                },
+                {
+                    "id": "figma-fundamentals"
+                }
+            ]
+        }
+    ]
+}
